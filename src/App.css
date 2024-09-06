@@ -1,0 +1,110 @@
+.Dance{
+    font-family: "Dancing Script", cursive;
+}
+
+.dancing-script{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+  }
+  .montserrat{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+  }
+  .montserrat-7{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+  }
+  section {
+    height: 100vh;
+    scroll-snap-align: start;
+  }
+  
+  body {
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    /* scrollbar-width: none; */
+    scrollbar-width:thin;
+    overflow-x:hidden;
+  }
+  
+  body::-webkit-scrollbar {
+    display: none;
+    scrollbar-width: none;
+  }
+  .skill-bar {
+    width: 100%;
+  }
+  
+  .progress-bar {
+    background-color: #242424;
+    border-radius: 10px;
+    position: relative;
+    height: 8px;
+    margin-top: 5px;
+  }
+  
+  .progress {
+    background-color: #00ffea;
+    height: 100%;
+    border-radius: 10px;
+  }
+  
+  .circular-skill {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+  }
+  
+  .circular-skill p {
+    margin-top: 10px;
+  }
+
+  @media (max-width: 768px) {
+    /* Adjust text sizes for smaller screens */
+    .section{
+    
+      flex: auto;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+   .margin2{
+    margin-right: 10px;
+    margin-left: 10px;
+   }
+   .positions{
+    position: relative;
+    top: 1400px;
+   }
+   .positions2{
+    position: relative;
+    top: 1600px;
+   }
+   .positions3{
+    flex: auto;
+    justify-content: center;
+    position: relative;
+    top: 1800px;
+   }
+   .positions4{
+    position: relative;
+    top: 2130px;
+   }
+  }
+  .skills-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex; /* Add this line */
+  }
+  @media (min-width: 768px) {
+  .margin{
+    margin-right: 208px;
+    margin-left: 208px;
+  }
+}
